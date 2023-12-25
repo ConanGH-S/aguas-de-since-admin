@@ -1,4 +1,4 @@
-import LoginContainer from '../containers/Login'
+import LoginContainer from './Login'
 
 export default function Home() {
   return (

@@ -6,7 +6,7 @@ export class Request {
   constructor() {}
 
   async login(payload: ILogin) {
-    const response = await axios.post(`${this.APIROUTE}/v1/user/login`, payload, { withCredentials: true })
+    const response = await axios.post(`${this.APIROUTE}/v1/users/login`, payload, { withCredentials: true })
     return response
   }
 }
